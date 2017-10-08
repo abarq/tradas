@@ -1,0 +1,11 @@
+PARAMETROS POR DEFECTO
+NombreProyecto  Proyecto
+NumeroDivisiones 4000
+criterioFalla Goodman
+acabadoSuperficial Machined
+tipoCarga Bending
+factorModificadorTemperatura 1
+factorModificadorConfiabilidad 1
+factorModificadorEfectosVarios 0.8
+
+

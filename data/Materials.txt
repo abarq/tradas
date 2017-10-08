@@ -1,0 +1,6 @@
+Description			 	Ultimate strength (MPa) Yield Strength (MPa)
+"AISI 1020 Q&R 300°C (750°F)"		400			240
+"AISI 4140 Q&R 205°C (440°F)"		1770			1550
+"AISI 4140 Normalized 870°C (1770°F)"	1020			650
+"AISI 4140 Annealed 815°C (1700°F)"	655			417
+

@@ -1,0 +1,1 @@
+button = questdlg('Universidad de Costa Rica', 'Inicio', 'Abrir', 'Opciones', 'Salir');

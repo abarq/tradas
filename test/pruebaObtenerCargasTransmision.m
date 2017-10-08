@@ -1,0 +1,5 @@
+function CargasTransmision = pruebaObtenerCargasTransmision()
+
+
+
+end
