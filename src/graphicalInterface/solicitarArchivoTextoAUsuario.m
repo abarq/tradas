@@ -1,6 +1,6 @@
 function ArchivoTexto = solicitarArchivoTextoAUsuario()
 
-    [nombreArchivoTexto, ruta, indiceCancel] = uigetfile('*.txt', 'Seleccione un archivo texto');
+    [nombreArchivoTexto, ruta, indiceCancel] = uigetfile([pwd '\examples\*.txt'], 'Seleccione un archivo texto');
     direccionArchivoTexto = strcat(ruta,nombreArchivoTexto);
            
     ArchivoTexto.direccion = direccionArchivoTexto;
