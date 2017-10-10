@@ -40,13 +40,15 @@ function mostrarVentanaProcesamientoCompleto(ventana, Parametros, ventanaHandle)
     c = strcat(b,'\',a);
     d = 'Analysis completed. The results are located at';
     e = [d,' ',c];%strcat(d,c);
+    f = '. Do you want to open the folder?';
+    g = [e f];
     ancho = 330;
     alto = 155;
     set(ventana.handle, 'Position', [1000,1000, ancho, alto]);
     set(ventana.handle, 'Name', 'Analysis completed');
     movegui(ventana.handle, 'center');
     set(ventana.textoNombreProyectoHandle, 'Position',[20 60 290 45]);
-    set(ventana.textoNombreProyectoHandle, 'String', e);
+    set(ventana.textoNombreProyectoHandle, 'String', g);
     
     
     anchoBoton = 50;%darFormatoGUIVentanaInicio('botonOpen', 'ancho');

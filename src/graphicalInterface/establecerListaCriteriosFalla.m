@@ -5,7 +5,9 @@ function listaCriteriosFallaHandle = establecerListaCriteriosFalla(datosVentanaP
     referenciaX = darFormatoGUIVentanaOpciones('listaCriterioFalla', 'referenciaX');
     referenciaY = darFormatoGUIVentanaOpciones('listaCriterioFalla','referenciaY');
     
-    listaCriteriosFalla = [{'Goodman'}, {'Soderberg'}, {'Asme'}, {'Gerber'}];
+    %listaCriteriosFalla = [{'Goodman'}, {'Soderberg'}, {'Asme'}, {'Gerber'}];
+    listaCriteriosFalla = [{'Goodman'}, {'Soderberg'}];
+
     listaCriteriosFallaHandle = uicontrol('Style','popup','Position', [referenciaX referenciaY anchoBoton alturaBoton], 'String' ,listaCriteriosFalla, 'Callback', @popupMenu_callback2);
     a = datosVentanaPrincipal.ParametrosActuales.Parametros.FatigaAltoCiclaje.criterioFallaValue;
     set(listaCriteriosFallaHandle, 'Value',a);
