@@ -26,7 +26,7 @@
 %   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 %   DEALINGS IN THE SOFTWARE.
 
-%   The source code can be downloaded from http\\:github\abarq\analizadorDeEje
+%   The source code can be downloaded from http\\:github\abarq\tradas
 
 addpath(genpath('src'));
 addpath('externalLibraries');
