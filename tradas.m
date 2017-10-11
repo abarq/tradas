@@ -30,6 +30,7 @@
 
 addpath(genpath('src'));
 addpath('externalLibraries');
+warning('off','all');
 
 clc
 close all;

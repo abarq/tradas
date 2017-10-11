@@ -49,8 +49,8 @@ function establecerFigura()
     directorioActual = pwd;
     directorioData  = '\data';
     archivoLogo = '\logo.png';
-    direccionArchivoCompleto = [directorioActual directorioData archivoLogo];
-    imshow(direccionArchivoCompleto);
+    direccionArchivoCompleto = [directorioActual directorioDa]
+    
 %     imshow('logo.png');
     set(gca, 'Position', [0.13 0.35 0.80 0.45]);
   

@@ -71,8 +71,9 @@ function iniciarAnalisis(hObject, ~)
 
         else
 
-           warndlg('Los datos de la geometria del eje son inválidos','Error');
-           uiwait();
+           menssage = 'The information of the shaft geometry is invalid';
+           windowHandle = data.ventanaPrincipal;
+           mostrarMensajeAdvertencia(windowHandle,menssage);
            cerrarArchivoTexto(InformacionArchivoTexto);
 
         end

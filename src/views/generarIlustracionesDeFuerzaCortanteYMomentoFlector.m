@@ -12,8 +12,8 @@ function generarIlustracionesDeFuerzaCortanteYMomentoFlector(ModeloViga,Transmis
         pendiente = ModeloViga(i).FuerzasCortantes.planoXY;
         area(ejeDividido, pendiente,'FaceColor', color,'EdgeColor',color);
         title('XY plane shear force');
-        xlabel('Location(m)');
-        ylabel('Force(N)');
+        xlabel('Length (m)');
+        ylabel('Force (N)');
         grid on;
         xlim([-0.05*longitudEje longitudEje*1.05]);
         
@@ -21,8 +21,8 @@ function generarIlustracionesDeFuerzaCortanteYMomentoFlector(ModeloViga,Transmis
         pendiente = ModeloViga(i).FuerzasCortantes.planoYZ;
         area(ejeDividido, pendiente,'FaceColor', color,'EdgeColor',color);
         title('YZ plane shear force');
-        xlabel('Location (m)');
-        ylabel('Force(N)');
+        xlabel('Length (m)');
+        ylabel('Force (N)');
         grid on;
         xlim([-0.05*longitudEje longitudEje*1.05]);
         
@@ -31,8 +31,8 @@ function generarIlustracionesDeFuerzaCortanteYMomentoFlector(ModeloViga,Transmis
         pendiente = ModeloViga(i).FuerzasCortantes.resultante;
         area(ejeDividido, pendiente,'FaceColor', color,'EdgeColor',color);
         title('Resultant shear force');
-        xlabel('Location(m)');
-        ylabel('Force(N)');
+        xlabel('Length (m)');
+        ylabel('Force (N)');
         grid on;
         xlim([-0.05*longitudEje longitudEje*1.05]);
         
@@ -57,8 +57,8 @@ function generarIlustracionesDeFuerzaCortanteYMomentoFlector(ModeloViga,Transmis
         pendiente = ModeloViga(i).MomentosFlectores.planoXY;
         area(ejeDividido, pendiente,'FaceColor', color,'EdgeColor',color);
         title('XY plane bending moment');
-        xlabel('Location (m)');
-        ylabel('Moment(Nm)');
+        xlabel('Length (m)');
+        ylabel('Moment (Nm)');
         grid on;
         xlim([-0.05*longitudEje longitudEje*1.05]);
         
@@ -66,7 +66,7 @@ function generarIlustracionesDeFuerzaCortanteYMomentoFlector(ModeloViga,Transmis
         pendiente = ModeloViga(i).MomentosFlectores.planoYZ;
         area(ejeDividido, pendiente,'FaceColor', color,'EdgeColor',color);
         title('YZ plane bending moment');
-        xlabel('Location(m)');
+        xlabel('Length (m)');
         ylabel('Moment (Nm)');
         grid on;
         xlim([-0.05*longitudEje longitudEje*1.05]);
@@ -76,7 +76,7 @@ function generarIlustracionesDeFuerzaCortanteYMomentoFlector(ModeloViga,Transmis
         pendiente = ModeloViga(i).MomentosFlectores.resultante;
         area(ejeDividido, pendiente,'FaceColor', color,'EdgeColor',color);
         title('Resultant bending moment');
-        xlabel('Location(m)');
+        xlabel('Length (m)');
         ylabel('Moment (Nm)');
         grid on;
         xlim([-0.05*longitudEje longitudEje*1.05]);
@@ -103,8 +103,8 @@ function generarIlustracionesDeFuerzaCortanteYMomentoFlector(ModeloViga,Transmis
         pendiente = ModeloViga(i).Pendiente.planoXY;
         area(ejeDividido, pendiente,'FaceColor', color,'EdgeColor',color);
         title('XY plane slope');
-        xlabel('Shaft distance(m)');
-        ylabel('Slope(Rad)');
+        xlabel('Length (m)');
+        ylabel('Slope (rad)');
         grid on;
         xlim([-0.05*longitudEje longitudEje*1.05]);
         
@@ -112,8 +112,8 @@ function generarIlustracionesDeFuerzaCortanteYMomentoFlector(ModeloViga,Transmis
         pendiente = ModeloViga(i).Pendiente.planoYZ;
         area(ejeDividido, pendiente,'FaceColor', color,'EdgeColor',color);
         title('YZ plane slope');
-        xlabel('Shaft distance(m)');
-        ylabel('Slope (Rad)');
+        xlabel('Length (m)');
+        ylabel('Slope (rad)');
         grid on;
         xlim([-0.05*longitudEje longitudEje*1.05]);
         
@@ -122,8 +122,8 @@ function generarIlustracionesDeFuerzaCortanteYMomentoFlector(ModeloViga,Transmis
         pendiente = ModeloViga(i).Pendiente.resultante;
         area(ejeDividido, pendiente,'FaceColor', color,'EdgeColor',color);
         title('Resultant slope');
-        xlabel('Shaft distance(m)');
-        ylabel('Slope (Rad)');
+        xlabel('Length (m)');
+        ylabel('Slope (rad)');
         grid on;
         xlim([-0.05*longitudEje longitudEje*1.05]);
         
@@ -149,8 +149,8 @@ function generarIlustracionesDeFuerzaCortanteYMomentoFlector(ModeloViga,Transmis
         pendiente = ModeloViga(i).Deflexion.planoXY;
         area(ejeDividido, pendiente,'FaceColor', color,'EdgeColor',color);
         title('XY plane deflection');
-        xlabel('Shaft distance(m)');
-        ylabel('Deflection(m)');
+        xlabel('Length (m)');
+        ylabel('Deflection (m)');
         grid on;
         xlim([-0.05*longitudEje longitudEje*1.05]);
         
@@ -158,7 +158,7 @@ function generarIlustracionesDeFuerzaCortanteYMomentoFlector(ModeloViga,Transmis
         pendiente = ModeloViga(i).Deflexion.planoYZ;
         area(ejeDividido, pendiente,'FaceColor', color,'EdgeColor',color);
         title('YZ plane deflection');
-        xlabel('Shaft distance(m)');
+        xlabel('Length (m)');
         ylabel('Deflection (m)');
         grid on;
         xlim([-0.05*longitudEje longitudEje*1.05]);
@@ -168,7 +168,7 @@ function generarIlustracionesDeFuerzaCortanteYMomentoFlector(ModeloViga,Transmis
         pendiente = ModeloViga(i).Deflexion.resultante;
         area(ejeDividido, pendiente,'FaceColor', color,'EdgeColor',color);
         title('Resultant deflection');
-        xlabel('Shaft distance(m)');
+        xlabel('Length (m)');
         ylabel('Deflection (m)');
         grid on;
         xlim([-0.05*longitudEje longitudEje*1.05]);

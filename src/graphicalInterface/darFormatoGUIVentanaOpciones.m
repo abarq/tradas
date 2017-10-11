@@ -145,12 +145,12 @@ function datoSolicitado = darFormatoGUIVentanaOpciones(varargin)
     referenciaXListaFactorConfiabilidad = referenciaXPanelAnalisis + anchoPanelAnalisis - separacionBordeVerticalPanel - anchoListaFactorConfiabilidad;
     referenciaYListaFactorConfiabilidad = referenciaYTextoFactorConfiabilidad + 5;
    
-    anchoTextoFactorEfectosVarios = 100;
+    anchoTextoFactorEfectosVarios = 140;
     alturaTextoFactorEfectosVarios = 15;
     referenciaXTextoFactorEfectosVarios = referenciaXTextoCriterioFalla;
     referenciaYTextoFactorEfectosVarios = referenciaYListaFactorConfiabilidad - alturaTextoFactorConfiabilidad - separacionBordeHorizontalVentana-5-10;
     
-    anchoListaFactorEfectosVarios = 40;
+    anchoListaFactorEfectosVarios = 30;
     alturaListaFactorEfectosVarios = 20;
     referenciaXListaFactorEfectosVarios = referenciaXPanelAnalisis + anchoPanelAnalisis - separacionBordeVerticalPanel - anchoListaFactorEfectosVarios;
     referenciaYListaFactorEfectosVarios = referenciaYTextoFactorEfectosVarios;

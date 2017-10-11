@@ -162,7 +162,7 @@ function textoNombreProyetoHandle = establecerTextoNombreProyecto()
     referenciaX = darFormatoGUIVentanaOpciones('textoNombreProyecto', 'referenciaX');
     referenciaY = darFormatoGUIVentanaOpciones('textoNombreProyecto','referenciaY');
 
-    textoNombreProyetoHandle = uicontrol('style','text', 'String', 'Project name', 'Position', [referenciaX referenciaY anchoTexto alturaTexto]);
+    textoNombreProyetoHandle = uicontrol('style','text', 'String', 'Name of the project', 'Position', [referenciaX referenciaY anchoTexto alturaTexto]);
     set(textoNombreProyetoHandle, 'HorizontalAlignment', 'left');
     set(textoNombreProyetoHandle,'BackgroundColor','white');
 
@@ -268,7 +268,7 @@ function establecerTextoFactorEfectosvarios()
     referenciaX = darFormatoGUIVentanaOpciones('textoFactorEfectosVarios', 'referenciaX');
     referenciaY = darFormatoGUIVentanaOpciones('textoFactorEfectosVarios','referenciaY');
 
-    textoNombreProyetoHandle = uicontrol('style','text', 'String', 'Various effects factor', 'Position', [referenciaX referenciaY anchoTexto alturaTexto]);
+    textoNombreProyetoHandle = uicontrol('style','text', 'String', 'Miscellaneous effect factor', 'Position', [referenciaX referenciaY anchoTexto alturaTexto]);
     set(textoNombreProyetoHandle, 'HorizontalAlignment', 'left');
     set(textoNombreProyetoHandle,'BackgroundColor','white');
    

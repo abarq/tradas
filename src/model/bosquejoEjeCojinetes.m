@@ -18,7 +18,7 @@ function bosquejoEjeCojinetes(Transmision,ejeDividido)
         plot(x2,y2, 'ko');
         hold on;
         plot(x2, -y2, 'ko');  
-        title('Bosquejo del eje');
+        title('Shaft sketch');
 
 end
 

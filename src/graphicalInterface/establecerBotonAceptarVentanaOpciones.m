@@ -35,14 +35,14 @@ function botonAceptarVentanaOpciones(hObject, eventdata)
             
         else 
            
-             menssage = 'The project name is invalid';
+             menssage = 'The name of the project is invalid';
              mostrarMensajeAdvertencia(windowHandle,menssage);
             
         end
         
     else
         
-        menssage = 'The miscellaniuos effect factor must take values greater than 0.1 and less or equal than 1.';
+        menssage = 'The miscellaneous effect factor must take values greater than 0.1 and less or equal than 1.';
         mostrarMensajeAdvertencia(windowHandle,menssage);
         
     end

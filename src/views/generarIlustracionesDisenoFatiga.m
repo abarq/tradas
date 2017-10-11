@@ -20,7 +20,7 @@ function generarIlustracionesDisenoFatiga(Transmision, Analisis, ModeloViga, Par
           y = Transmision.Eje.Geometria.SegmentoRecto.diametro(j)/2;
           
           plot(x,y,'xr')%'Color', color);
-          title('Critical point ubication');
+          title('Critical point location');
 
           b = subplot(2,1,2);
           get(b, 'Position');

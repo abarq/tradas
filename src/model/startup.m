@@ -1,1 +1,0 @@
-cd C:\Denis\UCR\Elementos de maquinas II

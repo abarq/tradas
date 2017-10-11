@@ -15,8 +15,8 @@ function generarIlustracionesDeflexionYPendiente(ModeloViga, Transmision, Parame
         deflexion = ModeloViga(i).Deflexion.resultante;
         plot(ejeDividido, deflexion);
         title('Shaft deflection');
-        xlabel('Shaft long (m)');
-        ylabel('Deflection(m)');
+        xlabel('Length (m)');
+        ylabel('Deflection (m)');
         grid on;
         xlim([-0.05*longitudEje longitudEje*1.05]);
 
@@ -24,8 +24,8 @@ function generarIlustracionesDeflexionYPendiente(ModeloViga, Transmision, Parame
         pendiente = ModeloViga(i).Pendiente.resultante;
         plot(ejeDividido, pendiente);
         title('Shaft slope');
-        xlabel('Shaft long(m)');
-        ylabel('Slope(rad)');
+        xlabel('Length (m)');
+        ylabel('Slope (rad)');
         grid on;
         xlim([-0.05*longitudEje longitudEje*1.05]);
         

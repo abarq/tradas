@@ -20,9 +20,13 @@ function mostrarMensajeAdvertencia(windowHandle, message)
      
      
      %ven = datosVentanaPrincipal.ventanaHandle;
-     oldState = enableDisableFig(windowHandle, 'off');
+     enableDisableFig(windowHandle, 'off');
      set(gcf,'CloseRequestFcn',{@my_closereq,windowHandle});
-     imshow('warningLogo.png');
+     directorioActual = pwd;
+     directorioData = '\data';
+     nombreArchivo = '\warningLogo.png';
+     direccionArchivoLogo = [directorioActual directorioData nombreArchivo];
+     imshow(direccionArchivoLogo);
      set(gca, 'Position', [0.06 0.18 0.2 0.65]);
      
     alturaBoton = 25;%darFormatoGUIVentanaOpciones('botonAceptarVentanaOpciones', 'altura'); 
